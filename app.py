@@ -27,4 +27,4 @@ def login():
                         twilio_api_key_secret, identity=username)
     token.add_grant(VideoGrant(room='My Room'))
 
-    return {'token': token.to_jwt().decode()}
+    return {'token': token.to_jwt()}
