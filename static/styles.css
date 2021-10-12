@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color:#222222;
+    background-color:rgb(250, 250, 250);
     width:70%;
 }
 #root:not(.withChat) {
@@ -30,19 +30,21 @@ html, body {
     
 }
 .participant {
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     margin-right: 5px;
     display: grid;
     grid-template-rows: auto 20px;
+    top:160px;
 }
 .participant div {
     text-align: center;
 }
 .participant div video {
     background-color: #eee;
-    border: 1px solid black;
+    border: 2px solid #2D8CFF;
+    border-radius: 13px;
     position: relative;
-    right:140%;
+    right:190%;
     bottom:170%;
 }
 .participant div video:not(.trackZoomed) {
@@ -109,6 +111,7 @@ html, body {
 #title {
     color:#2D8CFF;
     font-family: 'Roboto', sans-serif;
+    font-size:40px;
     margin-left:90%;
     margin-bottom:60px;
   
@@ -167,4 +170,11 @@ input[type=text]:focus {
     border: 3px solid #555;
   }
 
+input[type=text] {
+    border:6px solid black;
+}
 
+#count {
+    margin-left:15%;
+    margin-bottom:-20px;
+}
