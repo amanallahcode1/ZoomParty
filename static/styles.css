@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color:#222222;
     width:70%;
 }
 #root:not(.withChat) {
@@ -26,7 +26,6 @@ html, body {
     height: 100%;
     padding-right: 5px;
     display: flex;
-    flex-wrap: wrap;
     align-content: flex-start;
     
 }
@@ -42,6 +41,9 @@ html, body {
 .participant div video {
     background-color: #eee;
     border: 1px solid black;
+    position: relative;
+    right:140%;
+    bottom:170%;
 }
 .participant div video:not(.trackZoomed) {
     width: 240px;
@@ -52,6 +54,9 @@ html, body {
     font-family: 'Roboto';
     padding: 2px;
     color:white;
+    position: relative;
+    right:140%;
+    
     
 }
 .participantZoomed {
@@ -105,6 +110,7 @@ html, body {
     color:#2D8CFF;
     font-family: 'Roboto', sans-serif;
     margin-left:90%;
+    margin-bottom:60px;
   
 }
 
@@ -113,7 +119,6 @@ html, body {
 .clasbuton {
     background-color: #2D8CFF; /* Green */
     border: none;
-    border-radius: 20px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -121,14 +126,12 @@ html, body {
     display: block;
     font-size: 16px;
     font-family: 'Roboto';
-    margin:25px;
     width:160px;
 }
 
 .clasbuton:hover {
     background-color: #ff9500; /* Green */
     border: none;
-    border-radius: 20px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -136,10 +139,32 @@ html, body {
     display: block;
     font-size: 16px;
     font-family: 'Roboto';
-    margin:25px;
     width:160px;
     cursor:pointer;
 }
 
+form {
+    margin-left:90%;
+}
+
+#username {
+    margin-bottom:20px;
+    font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 150px;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  height:10px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
 
 
