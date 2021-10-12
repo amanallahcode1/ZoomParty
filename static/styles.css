@@ -3,7 +3,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width:100%;
+    width:70%;
 }
 #root:not(.withChat) {
     display:flex;
@@ -104,9 +104,8 @@ html, body {
 #title {
     color:#2D8CFF;
     font-family: 'Roboto', sans-serif;
-    margin: auto;
-    margin-top:20px;
-    margin-bottom:50px;
+    margin-left:90%;
+  
 }
 
 
@@ -119,9 +118,11 @@ html, body {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     font-family: 'Roboto';
+    margin:25px;
+    width:160px;
 }
 
 .clasbuton:hover {
@@ -132,11 +133,13 @@ html, body {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+    margin:25px;
+    width:160px;
+    cursor:pointer;
 }
 
-.clasbuton:hover {
-    cursor: pointer;
-}
+
+

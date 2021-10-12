@@ -7,13 +7,15 @@
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
     </head>
     <body>
-        <h1 id="title">Zoom Party</h1>
+        <h1 id="title">ZoomParty</h1>
         <form>
             <label for="username">Name: </label>
             <input type="text" name=”username” id="username">
-            <button class="clasbuton" id="join_leave">Join call</button>
-            <button class="clasbuton" id="share_screen" disabled>Share screen</button>
-            <button class="clasbuton" id="toggle_chat" disabled>Toggle chat</button>
+            <div class="actionButtons">
+                <button class="clasbuton" id="join_leave">Join call</button>
+                <button class="clasbuton" id="share_screen" disabled>Share screen</button>
+                <button class="clasbuton" id="toggle_chat" disabled>Toggle chat</button>
+            </div>
         </form>
         <p id="count" style="color:rgb(223, 68, 68); font-family: 'Roboto';">Disconnected.</p>
         <div id="root">
