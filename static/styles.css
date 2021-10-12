@@ -104,7 +104,9 @@ html, body {
 #title {
     color:#2D8CFF;
     font-family: 'Roboto', sans-serif;
-    margin-left:520px;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:50px;
 }
 
 
@@ -112,12 +114,27 @@ html, body {
 .clasbuton {
     background-color: #2D8CFF; /* Green */
     border: none;
+    border-radius: 20px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: 'Roboto';
+}
+
+.clasbuton:hover {
+    background-color: #ff9500; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto'
 }
 
 .clasbuton:hover {
