@@ -32,3 +32,13 @@ Screen Share
 
  - Users can share their screens and another video container will pop up, showing both the main camera and screen camera
 
+## Local Setup Instructions
+
+ - Create a Twilio account (if you don't have one yet). It's free!
+ - enerate an API Key for your account.
+ - lone this repository
+ - reate a virtualenv and install the requirements
+ - Ceate a .env file by copying the .env.template file. Fill out the values for your Twilio account's SID, API Key SID and API Key Secret.
+ - Execute python app.py to start the server.
+ - Naigate to http://localhost:5000 on your web browser. Connecting to the service from a phone or another computer may not work, as browsers require a secure (HTTPS) connection to give access to the media APIs. In that case, I suggest you use ngrok to give your application a temporary HTTPS URL.
+
