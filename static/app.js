@@ -86,6 +86,7 @@ function updateParticipantCount() {
         count.innerHTML = 'Disconnected.';
     else
         count.innerHTML = (room.participants.size + 1) + ' participants online.';
+        count.style.color = "#ff9500";
 };
 
 function participantConnected(participant) {

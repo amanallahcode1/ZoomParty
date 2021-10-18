@@ -52,12 +52,14 @@ html, body {
     height: 180px;
 }
 .participant .label {
-    background-color: #2D8CFF;
+    background-color: #ff9500;
     font-family: 'Roboto';
     padding: 2px;
     color:white;
     position: relative;
-    right:140%;
+    right:190%;
+    top:-325px;
+    border-radius:2px;
     
     
 }
