@@ -1,7 +1,5 @@
 # Welcome to ZoomParty
 
-## Live Site: [ZoomParty](http://whatevs.herokuapp.com)
-
 #### ZoomParty, a spinoff on Zoom and Houseparty, is a single-page application that allows users to have conversations using real-time video and voice chat.
 
 ## Technologies
@@ -38,8 +36,8 @@ Screen Share
 ## Local Setup Instructions
 
  - Create a Twilio account (if you don't have one yet). It's free!
- - enerate an API Key for your account.
- - lone this repository
+ - Generate an API Key for your account.
+ - Clone this repository
  - reate a virtualenv and install the requirements
  - Ceate a .env file by copying the .env.template file. Fill out the values for your Twilio account's SID, API Key SID and API Key Secret.
  - Execute python app.py to start the server.
